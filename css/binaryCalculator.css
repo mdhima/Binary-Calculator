@@ -1,0 +1,34 @@
+body {
+  width: 33%;
+  text-align: center;
+}
+.buttonContainer {
+    width: 60%;
+}
+.buttonContainer > .buttonClass {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0px;
+    float: left;
+}
+.buttonContainer > .resultBox {
+  width: 100%;
+  background-color: lightgrey;
+  border: solid;
+  height: 48px;
+  font-size: 20px;
+}
+.btnForNumbers {
+    background-color: lightgreen;
+    color: brown;
+}
+
+.btnForResults {
+    background-color: darkgreen;
+    color: white;
+}
+.btnForOperations {
+  background-color: black;
+  color: red;
+}
